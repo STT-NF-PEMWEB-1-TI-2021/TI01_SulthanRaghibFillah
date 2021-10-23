@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>Praktikum 2(Cart)</title>
+
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .topnav {
+            background-color: rgb(238, 240, 241);
+            overflow: hidden;
+        }
+
+        .isicart {
+            margin-left: 3%;
+            margin-right: 50%;
+        }
+
+        /*style the links inside the navigation bar*/
+        .topnav p {
+            float: left;
+            color: lightyellow;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .topnav a {
+            float: left;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 16px;
+        }
+
+        /* change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /*Add a color to the active/current link */
+        .topnav p.active {
+            background-color: rgb(25, 0, 252);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(248, 17, 17);
+        }
+
+        h2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .tombol-cari {
+            float: right;
+            padding: 14px 16px;
+        }
+    </style>
+</head>
+<fieldset>
+
+    <body>
+        <div class="topnav" style="display: flex; align-items: center;">
+            <strong><a class="active" href="#home">Distro</a></strong>
+            <a href="news">Catergory 1</a>
+            <a href="Contact">Category 2</a>
+            <a href="About">Category 3</a>
+            <div style="display: flex; align-items: center ; text-align: right; margin-left: 700px;">
+                <img class="tombol-cari" height="20px" src="assets/carii.png" alt="">
+                <img class="tombol-keranjang" height="20px" src="assets/keranjaang.png" alt="">
+                <p style="color: black;">Cart(1)</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="content"></div>
+        <div class="card"
+            style="color: rgb(0, 0, 0);
+             transition: 0.3s; width: 300px; height: 350px; float: right; background-color: rgb(238, 240, 241); margin-right: 100px; margin-top: 10px;">
+            <div class="container" style="padding-left: 40px;">
+                <table>
+                    <tr style="line-height: 45px;">
+                        <th colspan="3">Summary 1(item)</th>
+                    </tr>
+                    <tr style="line-height: 30px;">
+                        <td>Subtotal</td>
+                        <td></td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td></td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        <td>$20.00</td>
+                    </tr>
+                    <tr style="line-height: 30px;">
+                        <td>Shipping</td>
+                        <td></td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td></td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        <td style="text-align: center;">-</td>
+                    </tr>
+                    <tr style="line-height: 30px;">
+                        <td>Est. Taxes</td>
+                        <td></td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td></td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        <td style="text-align: center;">-</td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+            <div class="container" style="padding-left: 40px;">
+                <table>
+                    <tr style="line-height: 30px;">
+                        <th colspan="2"></th>
+                    </tr>
+                    <tr style="line-height: 30px;">
+                        <td>Total</td>
+                        <td></td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td></td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        <td></td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td></td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        <td></td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td></td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        <td></td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                        <td></td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        </td>
+                        <td>$20.00</td>
+                    </tr>
+                </table>
+                <button type="submit" style="background-color: blue; /*Green */ 
+                border: none;
+                color: white;
+                padding: 15px 80px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;">Checkout</button>
+            </div>
+        </div>
+        </div>
+        <div class="body">
+            <h2 style="margin-left: 25px; margin-top: 20px;">Your Cart</h2>
+        </div>
+        <hr>
+        <table>
+            <th style="padding-left: 25px;">Item</th>
+            <th style="padding-left: 290px;">Price</th>
+            <th style="padding-left: 50px;">Quantity</th>
+        </table>
+        <hr>
+        <table>
+            <td style="padding-left: 25px;">
+                <img src="assets/bajuu.jpg" width="70" height="80">
+            </td>
+            <td style="padding-left: 10px;">
+                T-shirt
+                <br>
+                Size : XL
+            </td>
+            <td style="padding-left: 190px;">$20.00</td>
+            <td style="padding-left: 50px;">
+                <select name="quantity">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="12">12</option>
+                </select>
+            </td>
+        </table>
+        <hr>
+        <div class="subtotal" style="margin-left: 400px;">
+            Subtotal : $20.00
+        </div>
+        <hr>
+    </body>
+
+    </td>
+
+    </table>
+    </body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="footer">
+        <div class="body">
+            <hr style="border: solid black;">
+            <table>
+                <th>
+                    <div class="sitename" style="text-align: left; font-size: 20px; margin-left: 50px;">Distro</div>
+                    <div class="baris" style="display: flex; gap: 5px;">
+                        <img src="assets/ovo-dana-gopay-png-transparent-png.png" height="25px" width="100px"
+                            style="padding-left: 35px;">
+                    </div>
+                </th>
+                <th>
+                    <div class="Category" style="padding-left: 50px; padding-right: 450px; color: blue;">
+                        <a href="" style="color: blue;" style="font-size: 10px;">Category X</a> |
+                        <a href="" style="color: blue;">Category Y</a> |
+                        <a href="" style="color: blue;">Category Z
+                    </div>
+
+                </th>
+                <th>
+                    <div class="subs" style="padding-top: 10px;">
+                        Stay In Touch! join our Newsletter
+                    </div>
+                    <form action="">
+                        <input type="text" id="username" name="username" placeholder="Enter Email">
+                        <input type="submit" value="subscribe">
+                    </form>
+                </th>
+            </table>
+        </div>
+</fieldset>
+</div>
+
+</html>
