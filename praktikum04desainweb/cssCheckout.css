@@ -1,0 +1,86 @@
+.tombol-cari {
+    float: right;
+    padding: 10px 10px;
+    height: 20px;
+}
+
+.isicart {
+    margin-left: 3%;
+    margin-right: 50%;
+}
+
+.k-kanan {
+    width: 300px;
+    height: 350px;
+    float: right;
+    background-color: rgb(202, 200, 200);
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.f-set {
+    margin-right: 50px;
+}
+
+.f-gambar {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-left: 700px;
+    color: black;
+}
+
+.strong {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 6mm;
+    padding-right: px;
+}
+
+.tb1 {
+    line-height: 30px;
+    text-align: left;
+}
+
+.tb2 {
+    padding-left: 40px;
+}
+
+.tb3 {
+    float: left;
+    width: 300px;
+    text-align: left;
+}
+
+.td {
+    width: 160px;
+}
+
+.th1 {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.th2 {
+    display: flex;
+    gap: 5px;
+    padding-left: 35px;
+}
+
+.th3 {
+    padding-left: 50px;
+    padding-right: 450px;
+}
+
+.th4 {
+    color: blue;
+    font-size: 4.5mm;
+}
+
+.caption {
+    float: left;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 5mm;
+}

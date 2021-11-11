@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>Praktikum 2(Checkout)</title>
+    <link rel="stylesheet" href="cssCheckout.css">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .topnav {
+            background-color: rgb(202, 200, 200);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        /*style the links inside the navigation bar*/
+        .topnav p {
+            float: left;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .topnav a {
+            float: left;
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 16px;
+        }
+
+        /* change the color of links on hover */
+        .topnav a:hover {
+            background-color: rgb(161, 161, 161);
+        }
+
+        /*Add a color to the active/current link */
+        .topnav p.active {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        h2 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+
+</head>
+<fieldset class="f-set">
+
+    <body>
+        <div class="topnav">
+            <strong class="strong">Distro</strong>
+            <a href="News">Category 1</a>
+            <a href="Contact">Category 2</a>
+            <a href="About">Category 3</a>
+            <div class="f-gambar">
+                <img class="tombol-cari" src="assets/carii.png">
+                <img height="20px" src="assets/keranjaang.png">
+                <p>Cart(1)</p>
+            </div>
+        </div>
+    </body>
+
+    <br>
+
+    <div class="k-kanan">
+        <div class="tb2">
+            <table>
+                <tr style="line-height: 45px;">
+                    <th colspan="3">Summary 1(item)</th>
+                </tr>
+                <tr class="tb1">
+                    <td class="td">Subtotal</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr class="tb1">
+                    <td>Shipping</td>
+                    <td style="text-align: center;">-</td>
+                </tr>
+                <tr class="tb1">
+                    <td>Est. Taxes</td>
+                    <td style="text-align: center;">-</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="tb2">
+            <div>Gift card or discount code</div>
+            <form action="">
+                <input type="text" id="username" name="username">
+                <input type="submit" value="Apply">
+            </form>
+        </div>
+        <hr>
+        <div class="tb2">
+            <table>
+                <tr class="tb1">
+                    <th colspan="2"></th>
+                </tr>
+                <tr class="tb1">
+                    <td class="td">Total</td>
+                    <td>$23.60</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="body">
+        <table>
+            <tr>
+                <th rowspan="2">
+                    <img src="assets/Ceklis.PNG" width="50" height="50">
+                <td>Order 23/10/2021</td>
+                </th>
+            <tr>
+                <td class="caption">Thank You, Kenny!</td>
+            </tr>
+            </tr>
+        </table>
+
+    </div>
+    <hr>
+    <table>
+        <td style="float: left;">Your order is confirmed</td>
+        <tr>
+            <td>We've accepted your order and we're getting it ready</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption class="caption">Customer Information.</caption>
+
+        <tbody>
+            <tr>
+                <th class="tb3">Shipping Address</th>
+                <td><b>Billing Address</b></td>
+            </tr>
+            <tr>
+                <td>Kenny Boastick</td>
+                <td>Kenny Boastick</td>
+            </tr>
+            <tr>
+                <td><a href="">12 Waldo Point Road</a></td>
+                <td><a href="">12 Waldo Point Road</a></td>
+            </tr>
+            <tr>
+                <td><a href="">Mishouken, NY 11200</a></td>
+                <td><a href="">Mishouken, NY 11200</a></td>
+            </tr>
+            <tr>
+                <td><a href="">United States</a></td>
+                <td><a href="">Unuted States</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Shipping Method</b></td>
+                <td><b>Payment Method</b></td>
+            </tr>
+            <tr>
+                <td>UPS Ground (Extimated ship
+                    <br> time of 3-6 days)
+                </td>
+                <td>Ending in 3217 - $23.60</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <hr>
+        <table>
+            <th>
+                <div class="th1">Distro</div>
+                <div class="th2">
+                    <img src="assets/ovo-dana-gopay-png-transparent-png.png" height="25px" width="100px">
+                </div>
+            </th>
+            <th>
+                <div class="th3">
+                    <a href="" class="th4">Category X</a> |
+                    <a href="" class="th4">Category Y</a> |
+                    <a href="" class="th4">Category Z</a>
+                </div>
+            </th>
+            <th>
+                <div style="padding-top: 10px;">
+                    Stay In Touch! join our Newsletter
+                </div>
+                <form action="">
+                    <input type="text" id="username" name="username" placeholder="Enter Email">
+                    <input type="submit" value="subscribe">
+                </form>
+            </th>
+        </table>
+    </div>
+</fieldset>
+
+</html>
