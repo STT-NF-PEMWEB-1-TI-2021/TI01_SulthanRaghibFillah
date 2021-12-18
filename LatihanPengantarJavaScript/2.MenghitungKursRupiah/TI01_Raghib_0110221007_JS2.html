@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Kurs Rupiah</title>
+    <link rel="stylesheet" href="assets/css/style1.css">
+</head>
+
+<body>
+
+    <h1>Menghitung Kurs Rupiah</h1>
+
+    <table border="1">
+        <tr>
+            <th>Input Your Dollar</th>
+            <th>Nominal Tetap</th>
+            <th>Hasil Convert</th>
+        </tr>
+        <td>
+            <input type="number" id="input" onchange="input()">
+        </td>
+        <td id="tetap" onchange="input()">1$ Dollor US = Rp. 14.650</td>
+        <td>
+            <input type="number" readonly id="result">
+        </td>
+    </table>
+
+    <!-- JavaScript Start -->
+    <script src="assets/js/HitungKursRupiah.js"></script>
+    <!-- JavaScript End -->
+</body>
+
+</html>
