@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/kurs.css">
+    <style>
+        table tr {
+            text-align: center;
+            border: 2px solid;
+        }
+
+        fieldset {
+            width: 34em;
+        }
+
+        legend {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+  
+    <div class="container">
+        <fieldset>
+            <legend>Kurs Rupiah - Mata Uang Asing</legend>
+            <fieldset>
+                <table>
+
+                    <tr>
+                        <th>Masukkan Nilai</th>
+                        <th>Convert</th>
+                        <th>Nilai Rupiah</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="number" id="masuk" size="12" onchange="convert()">
+                        </td>
+                        <td>
+                            <select name="money" id="pilih" onchange="convert()">
+                                <option value="usd">$ USD - Rp. 9.915</option>
+                                <option value="sgd">$ SGD - Rp. 13.472</option>
+                                <option value="ringgit">RM Ringgit - Rp. 874</option>
+                                <option value="yen">¥ Yen - Rp. 120</option>
+                                <option value="euro">€ Euro - Rp. 15.888</option>
+                                <option value="riyal">SR Riyal - Rp. 3.592</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="number" value="" size="12" id="hasil" readonly>
+                        </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+        </fieldset>
+    </div>
+
+    <!-- JavaScript Start -->
+    <script src="assets/js/kurs.js"></script>
+    <!-- JavaScript End -->
+</body>
+
+</html>

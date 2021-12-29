@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picture</title>
+    <link rel="stylesheet" href="assets/css/callPict.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-text">
+            <h2>Cari Tahu Gambar Apa saja ini</h2>
+            <select name="hewan" id="pilih" class="custom-select">
+                <option value="pilih0">Silahkan Pilih</option>
+                <!-- Gambar Panda -->
+                <option value="pilih1">Gambar 1</option>
+                <!-- Gambar Harimau -->
+                <option value="pilih2">Gambar 2</option>
+                <!-- Gambar Pinguin -->
+                <option value="pilih3">Gambar 3</option>
+                <!-- Gambar Elang -->
+                <option value="pilih4">Gambar 4</option>
+                <!-- Gambar Gorila -->
+                <option value="pilih5">Gambar 5</option>
+            </select>
+            <button class="custom-select" onclick="LihatGambar()">Lihat Gambar</button>
+        </div>
+    </div>
+    <div class="container">
+        <img id="hasil" src="" width="100%">
+    </div>
+
+
+
+    <script>
+        function LihatGambar() {
+            const pilih = document.getElementById("pilih");
+            const hasil = document.getElementById("hasil");
+
+            if (pilih.value == "pilih0") {
+                alert("Mohon pilih Gambar");
+            }
+            if (pilih.value == "pilih1") {
+                hasil.src = "panda.jpg";
+                alert("Ini adalah Gambar Panda");
+            }
+            if (pilih.value == "pilih2") {
+                hasil.src = "harimau.jpg";
+                alert("Ini adalah Gambar Harimau");
+            }
+            if (pilih.value == "pilih3") {
+                hasil.src = "pinguin.jpg";
+                alert("Ini adalah Gambar Pinguin");
+            }
+            if (pilih.value == "pilih4") {
+                hasil.src = "elang.jpg";
+                alert("Ini adalah Gambar Elang");
+            }
+            if (pilih.value == "pilih5") {
+                hasil.src = "gorila.jpg";
+                alert("Ini adalah Gambar Gorila");
+            }
+        }
+    </script>
+</body>
+
+</html>
