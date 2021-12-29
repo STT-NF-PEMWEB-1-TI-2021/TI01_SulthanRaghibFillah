@@ -1,0 +1,43 @@
+html,
+body,
+section {
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: chocolate;
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav li {
+  float: left;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: black;
+  transition-duration: 2s;
+}
+
+section {
+  padding: 80px;
+}
