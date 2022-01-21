@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registrasi</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+  <!-- Google Font Source Sans Pro -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+
+  <link rel="stylesheet" href="css/style-layoutit.css">
+</head>
+
+<body class="hold-transition login-page body-bg">
+  <!-- Preloader -->
+  <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="assets/img/logo.png" alt="LogoDev.WebCracker" height="60" width="60">
+  </div>
+
+  <div class="login-box">
+    <div class="bg-transparant py-4 text-center text-white">
+      <div class="login-logo mb-0">
+        <b>Registrasi User</b>
+      </div>
+      <p>Sistem Informasi Lowongan Kerja - Nurul Fikri</p>
+    </div>
+    <!-- /.login-logo -->
+    <div class="card">
+      <div class="card-body login-card-body bg-white-tp">
+        <form action="KelolaLowonganKerja.html" method="post">
+          <div class="form-group row">
+            <label for="text" class="col-5 col-form-label">Nama Lengkap :</label>
+            <div class="col-7">
+              <input id="text" name="text" type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="text1" class="col-5 col-form-label">Email :</label>
+            <div class="col-7">
+              <input id="email" name="email" type="email" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="text2" class="col-5 col-form-label">Username :</label>
+            <div class="col-7">
+              <input id="text2" name="text2" type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="Password" class="col-5 col-form-label">Password :</label>
+            <div class="col-7">
+              <input id="Password" name="Password" type="password" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="Password2" class="col-5 col-form-label">Cek Password :</label>
+            <div class="col-7">
+              <input id="Password2" name="Password2" type="password" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-8">
+              <div class="icheck-primary">
+                Sudah memiliki akun?
+                <a href="login.html">Login</a>
+
+              </div>
+            </div>
+
+            <div class="col-4">
+              <button type="submit" class="btn btn-primary btn-block">Daftar</button>
+            </div>
+
+          </div>
+        </form>
+      </div>
+      <div class="color-indigo py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; Developer Web Cracker 2022</small></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+  <script>
+    $.widget.bridge('uibutton', $.ui.button)
+  </script>
+  <script src="plugins/chart.js/Chart.min.js"></script>
+  <script src="plugins/sparklines/sparkline.js"></script>
+  <script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+  <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+  <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+  <script src="plugins/moment/moment.min.js"></script>
+  <script src="plugins/daterangepicker/daterangepicker.js"></script>
+  <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+  <script src="plugins/summernote/summernote-bs4.min.js"></script>
+  <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+  <script src="dist/js/adminlte.js"></script>
+  <script src="dist/js/demo.js"></script>
+  <script src="dist/js/pages/dashboard.js"></script>
+</body>
+
+</html>

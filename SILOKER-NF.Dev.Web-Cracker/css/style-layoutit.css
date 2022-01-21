@@ -1,0 +1,68 @@
+/* # Empty CSS file for your own CSS */
+.field-color-black{
+  border: 2px solid black;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.none-underline{
+  color: white;
+  text-decoration: none;
+}
+.legend-black{
+  border: 2px solid black;
+}
+
+.text-color-white{
+  color: white;
+}
+
+.color-cyan {
+  background-color: #0dcaf0;
+}
+
+.color-indigo {
+  background-color: #1a252f;
+}
+
+.b-i-edit {
+  padding-top: 5px;
+}
+
+.b-i-color {
+  background-color: white;
+}
+
+.head-edit{
+  padding-top: calc(1rem + 80px);
+}
+
+.hr-hitam{
+  border: 0.1px solid black;
+  opacity: inherit;
+}
+
+.hr-loker-baru{
+  border: 1px solid black;
+  opacity: inherit;
+  margin-left: 1rem;
+}
+
+.body-bg {
+  margin: 0;
+  padding: 0;
+  background: url(bg-login2.jpg);
+  background-size: 50%;
+}
+
+.bg-transparant{
+  background-color: #1a252f7c;
+}
+
+.bg-white-tp{
+  background-color: rgb(0 30 61);
+  color: white;
+}
+
+
+
